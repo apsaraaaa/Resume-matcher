@@ -12,7 +12,7 @@ An AI-based NLP application that parses resumes and matches them with job descri
 
 ##  Deployment
 Live App: [Render App Link](#)  
-Code Repository: [GitHub Link](#)
+Code Repository: https://github.com/apsaraaaa/Resume-matcher.git
 
 ##  Techniques Used
 - TF-IDF Vectorization
