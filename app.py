@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/16bMVFvPp72a4gAv_D0AYti59KEPX-ChN
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 code = '''
 from flask import Flask, request, render_template
