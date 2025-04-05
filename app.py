@@ -140,5 +140,3 @@ with open("requirements.txt", "w") as f:
     f.write(reqs.strip())
 
 print("requirements.txt created")
-
-!zip -r resume-matcher.zip app.py templates/ resume.xlsx jobs.xlsx requirements.txt
