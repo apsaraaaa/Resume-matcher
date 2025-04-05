@@ -20,7 +20,7 @@ Code Repository: https://github.com/apsaraaaa/Resume-matcher.git
 - Data Preprocessing (Pandas)
 - Visualization (Seaborn, Matplotlib)
 
-## 🗂 Folder Structure
+## Folder Structure
 
 resume-matcher/
 │
