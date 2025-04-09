@@ -36,5 +36,8 @@ def match():
                            job_description=best_job['Job Description'],
                            score=round(cosine_similarities[best_match_index]*100, 2))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    import os
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port)
+
