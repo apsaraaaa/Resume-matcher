@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Matcher</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eaf6ff;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="file"] {
+            margin-bottom: 15px;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            background-color: #fff;
+            border-left: 5px solid #007bff;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Resume to Job Matcher</h1>
+    <form action="/match" method="post" enctype="multipart/form-data">
+        <label>Select your resume (PDF):</label><br>
+        <input type="file" name="resume" accept=".pdf" required><br>
+        <button type="submit" class="button">Find Best Job Match</button>
+    </form>
+
+    {% if job_title %}
+    <div class="result">
+        <h2>Best Match: {{ job_title }}</h2>
+        <p><strong>Score:</strong> {{ score }}</p>
+        <p><strong>Description:</strong> {{ job_description }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

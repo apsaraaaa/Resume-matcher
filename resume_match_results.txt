@@ -1,0 +1,15 @@
+Match 1: Structural Analysis Engineer
+Score: 0.37
+Rating: Average
+Snippet: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus....
+
+Match 2: Senior Financial Analyst
+Score: 0.15
+Rating: Poor
+Snippet: Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede....
+
+Match 3: Business Systems Development Analyst
+Score: 0.07
+Rating: Poor
+Snippet: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridicul...
+
