@@ -30,9 +30,8 @@
 
 ---
 
-## 📸 Screenshots
-
-> ✨ *Visuals from analysis and final match results are available inside the project (bar plots + pie charts)*
+## 📸 visualization
+![image](https://github.com/user-attachments/assets/3e795d6a-7a42-4c5a-b976-0add6a84c83d)
 
 ---
 
